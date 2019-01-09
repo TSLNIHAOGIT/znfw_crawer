@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=GB2312" />
+        <TITLE>ip过滤提交验证码</TITLE>		
+        <script src="http://js.uc.findlaw.cn/user/jquery-1.7.2.min.js" type="text/javascript"></script>
+        <link type="text/css" rel="stylesheet" href="http://css.findlawimg.com/min/?b=css&amp;f=common/base.css,common/public.css&ver=1397803855" />
+        <link type="text/css" rel="stylesheet" href="http://css.uc.findlaw.cn/user/f-reg.css" />	  
+        <style>     
+            .city span{width:56px;}
+        </style>
+    </HEAD>
+    <BODY>
+        <!--ip过滤提交验证码start-->
+        <div class="main" style="display:none/;">
+			 <div class="main-title">
+				<ul class="main-title-tab" style="left:580px">
+					<li>很抱歉，您的电脑所在的局域网络有异常的访问，此刻我们无法响应您的请求, 请输入以下验证码，即可恢复使用。</li>
+				</ul>
+			</div>
+            <div class="main-conter">
+                <div class="regform-box">
+                    <form name='reform' method='post' action='http://ipfilter.lsurl.cn/index.php?m=Home&c=IpFilter&a=submit_verification' > 					
+                        <div class="regform" id="vcdiv"> 						
+							<p class="tle">验证码：</p>
+                            <p class="input"><input class="reg-input-W "  style="width: 60px;"  type="text" name="vgcode" id="vgcode" onblur="checkdatas(this.value, 11)" status="uname_status"  autocomplete="off">
+                                <img class="yzm-pic" id='vimg' src="http://ipfilter.lsurl.cn/index.php?c=Register&a=getcaptcha">
+                                <a onclick='geverify()' style="cursor:pointer;">&nbsp;看不清？</a>
+                            </p>
+                            <p class="tips"><span class="txt-err" id="tip11"></span></p>
+                        </div>
+                        <div class="regform">
+                            <p class="tle">&nbsp;</p>
+                            <p class="input"><input type="button" id="resubimt" value="确认"  class="input-submit-btn"></p><p class="tips">&nbsp;</p>
+                        </div>
+<!--   <div class="regform"><p class="tle">&nbsp;</p><p class="input"><input type="submit" id="resubimt" disabled="disabled"  value="确认" class="input-submit-btn"></p><p class="tips">&nbsp;</p></div>-->
+                     <input type="hidden" name="powerkey" value="adaad13dd1929ba50d1cd2710cb98c34" />  
+                     <input type="hidden" name="continue" value="aHR0cDovL3d3dy5sYXd0aW1lLmNuL2Fzay9icm93c2VfczkxX2QyMDEzMDYuaHRtbA==" />  
+                    </form> 
+                    
+  
+                                                            </div>
+                                                            </div>
+
+   
+                                                            </BODY>
+                                                            <script  type="text/javascript">
+var ajaxurl = 'http://ipfilter.lsurl.cn/index.php?c=Ajax&a=ajaxDispatcher';
+$(function ($) {
+    var powerkey = $("input[name=powerkey]").val();
+    $(window).keydown(function (event) {
+        switch (event.keyCode) {
+            case 13:
+                $('form[name=reform]').submit();
+        }
+    });                                                
+    checkdatas = function (data, type) {
+        if (type == 11 || type == null) {
+            var vgcode = data || $("#vgcode").val();
+            var reg = /^\d{4}$/;
+            if (vgcode == '' || vgcode == undefined) {
+                $("#tip11").html("请输入验证码");
+                $("#vgcode").attr("class", "reg-input-W input-err");
+                $("input[name=vcode_status]").val(0);
+            }
+            else if (!reg.test(vgcode)) {
+                $("#tip11").html("验证码格式错误");
+                $("input[name=vcode_status]").val(0);
+                $("#vgcode").attr("class", "reg-input-W input-err");
+            }
+            else {
+                checkcaptcha(vgcode, powerkey);
+            }
+        }
+    }
+    checkcaptcha = function (vgcode, powerkey) {  
+        $.post(ajaxurl, { 'captcha': vgcode, 'power_key': powerkey, 'servertype': 10, 'requestmode': 'async' }, function (data) { 
+            if (data.status == 1) {
+                $("#tip11").html('<span class="txt-succ">&nbsp;</span>');
+                $("#vgcode").attr("class", "reg-input-W");
+                $("input[name=vcode_status]").val(1);
+                cpact = vgcode;
+                document.reform.submit();                
+            }
+            else {
+                $("#tip11").html("验证码错误或已过期");
+                $("#vgcode").attr("class", "reg-input-W input-err");
+                $("input[name=vcode_status]").val(0);
+                cpact = '';
+            }
+        }, 'json');
+    }
+    geverify = function () {
+        var url = 'http://ipfilter.lsurl.cn/index.php?c=Register&a=getcaptcha&rand=' + Math.random();
+        $("#tip11").html("");
+        $("#vgcode").val("");
+        cpact = '';
+        $("#vimg").attr("src", url);
+    }
+        
+    })
+</script>
+ 
+</HTML>

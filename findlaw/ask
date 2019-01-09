@@ -1,0 +1,282 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>离婚咨询-离婚法律网</title>
+<link href="http://www.lihun66.com/public/css/reset.css" rel="stylesheet" type="text/css" />
+<link href="http://www.lihun66.com/public/css/master.css" rel="stylesheet" type="text/css" />
+<link href="http://www.lihun66.com/public/css/divorce.css" rel="stylesheet" type="text/css" />
+<script src="http://www.lihun66.com/public/js/jquery-1.7.2.min.js" type="text/javascript" language="javascript"></script>
+<script src="http://www.lihun66.com/public/js/js.js" type="text/javascript"></script>
+<!–[if IE 6]>
+<script type="text/javascript" src="http://www.lihun66.com/public/js/DD_belatedPNG_0.0.8a-min.js"></script>
+<script>
+DD_belatedPNG.fix('ul li ,background');
+</script>
+<![endif]–>
+</head>
+
+<body>
+<div class="top">
+	<div class="top_m">
+    	<span class="fl">
+	    	<script type="text/javascript" src="http://www.lihun66.com/member/userinfojs.php" ></script>
+        </span>
+        <span class="fr">
+        	<a href="http://www.lihun66.com/">离婚法律首页</a>
+            <span><img src="http://www.lihun66.com/public/images/top_line_02.jpg" width="2" height="12" /></span>
+            <a href="http://www.lihun66.com/sitemap.html">网站地图</a>
+            <span><img src="http://www.lihun66.com/public/images/top_line_02.jpg" width="2" height="12" /></span>
+            <a href="http://www.lihun66.com/ask/">法律咨询</a>
+         
+<span><img src="http://www.lihun66.com/public/images/top_line_02.jpg" width="2" height="12" /></span>
+            <a href="http://hao.lawtime.cn/">法律导航-律师都用</a>
+        </span>
+    </div>
+</div><div class="wrap">
+	<div class="map_head">
+    	<div class="left">
+        	<div class="t"><img src="http://www.lihun66.com/public/images/logo.jpg" /></div>
+            <div class="b"><a href="#"></a></div>
+        </div>
+        <div class="right">
+        	<div class="t"><img src="http://www.lihun66.com/public/images/title_word.jpg" /></div>
+            <div class="b">
+                <div class="down" id="anwser">
+                	 <form action="http://www.lihun66.com/ask/search.php?action=search" method="post">
+                	<div class="input_bg"><input class="serach_word" name="q" value="" /></div>	
+                    <div class="btn">
+					<input class="btn_1" name="" type="submit" value="搜索答案" class="submit" />
+					<input class="btn_2" onclick="location.href='http://www.lihun66.com/ask/post.php'" name="按钮" type="button" class="postqa" value="我要提问" /><!--<a class="btn_1" href="#">搜索答案</a><a class="btn_2" href="#">我要提问</a>--></div>
+					</form>
+                </div>
+                <div class="down disnone" id="findlawer">
+                	<div class="input_bg2">
+                      	<select style="width:85px; height:20px;">
+                        	<option>律师名字</option>
+                        </select>
+                      	<select style="width:85px; height:20px;">
+                        	<option>省份</option>
+                        </select>
+                      	<select style="width:85px; height:20px;">
+                        	<option>城市</option>
+                        </select>
+                      	<select style="width:130px; height:20px;">
+                        	<option>全部类别</option>
+                        </select>                                                                        
+                    </div>	
+                    <div class="btn"><a class="btn_1" href="#">搜索答案</a><a class="btn_2" href="#">我要提问</a></div>
+                </div>   
+            </div>        
+        </div>    	
+    </div>
+    <div class="nav">
+    	<div class="nav_l"></div>
+        <div class="nav_m">
+          <div class="nav_m_l" style="_width:60px\9;">
+          	<h1 style="font-weight:bold;"><a href="http://www.lihun66.com/">首&nbsp;&nbsp;页</a></h1><h1 style="font-weight:bold;"><a href="http://www.lihun66.com/lawyer/">找律师</a></h1>
+          </div>
+          <div class="nav_m_c">
+            <span class="big">
+            	<div class="large"><a href="http://www.lihun66.com/jiehun/" target="_blank">婚姻知识</a></div>
+            	<div class="popup_a link_all disnone" style="width:110px">
+            	<a href="http://www.lihun66.com/jiehun/tiaojian/" target="_blank">结婚条件</a><a href="http://www.lihun66.com/jiehun/dengji/" target="_blank">结婚登记</a><a href="http://www.lihun66.com/jiehun/jiehunz/" target="_blank">结婚证</a><a href="http://www.lihun66.com/jiehun/jiehunwx/" target="_blank">婚姻无效</a><a href="http://www.lihun66.com/jiehun/jiehunzswd/" target="_blank">婚姻法律知识问答</a><a href="http://www.lihun66.com/jiehun/fadingnl/" target="_blank">法定结婚年龄</a>
+           		</div>
+            </span>
+            <span style="width:112px;">
+            	<ul>
+                	<li><a href="http://www.lihun66.com/jiehun/tiaojian/" target="_blank">结婚条件</a></li>
+					<li><a href="http://www.lihun66.com/jiehun/dengji/" target="_blank">结婚登记</a></li>
+                    <li style="width:48px; text-align:left"><a href="http://www.lihun66.com/jiehun/jiehunz/" target="_blank">结婚证</a></li>
+                    <li><a href="http://www.lihun66.com/jiehun/jiehunwx/" target="_blank">婚姻无效</a></li>
+                </ul>
+            </span>
+            <span class="big" style="margin:0 3px;">
+            	<div class="large"><a href="http://www.lihun66.com/lhlaw/" target="_blank">离婚问题</a></div>
+            	<div class="popup_b link_all disnone"><a href="http://www.lihun66.com/lhlaw/lihunsx/" target="_blank">离婚手续</a><a href="http://www.lihun66.com/lhlaw/lihuncx/" target="_blank">离婚程序</a><a href="http://www.lihun66.com/lhlaw/lihunss/" target="_blank">离婚诉讼</a><a href="http://www.lihun66.com/lhlaw/lihunxy/" target="_blank">离婚协议书</a><a href="http://www.lihun66.com/lhlaw/lihunqs/" target="_blank">离婚起诉书</a><a href="http://www.lihun66.com/lhlaw/lihunzx/" target="_blank">离婚咨询问答</a></div>
+            </span>            
+            <span>
+            	<ul>
+                    <li><a href="http://www.lihun66.com/lhlaw/lihunsx/" target="_blank">离婚手续</a></li>
+                    <li><a href="http://www.lihun66.com/lhlaw/lihuncx/" target="_blank">离婚程序</a></li>
+					<li><a href="http://www.lihun66.com/lhlaw/lihunss/" target="_blank">离婚诉讼</a></li>
+                    <li><a href="http://www.lihun66.com/lhlaw/lihunxy/" target="_blank">离婚协议书</a></li>
+                </ul>
+            </span>
+            <span class="big" style="margin:0 3px;">
+            	<div class="large"><a href="http://www.lihun66.com/jclaw/" target="_blank">继承关系</a></div>
+             	<div class="popup_c link_all disnone" style="width:110px;"><a href="http://www.lihun66.com/jclaw/jichengfa" target="_blank">继承法</a><a href="http://www.lihun66.com/jclaw/jcq" target="_blank">继承权</a><a href="http://www.lihun66.com/jclaw/ycjc" target="_blank">遗产继承</a><a href="http://www.lihun66.com/jclaw/ccjc" target="_blank">财产继承</a><a href="http://www.lihun66.com/jclaw/dwjc" target="_blank">代位继承</a><a href="http://www.lihun66.com/jclaw/zjc" target="_blank">转继承</a><a href="http://www.lihun66.com/jclaw/dcjc" target="_blank">多重继承</a><a href="http://www.lihun66.com/jclaw/fdjc/" target="_blank">法定继承</a></div>
+            </span>           
+            <span class="small" style="width:114px;">
+            	<ul>
+                	<li style="width: 48px;text-align: left;"><a href="http://www.lihun66.com/jclaw/jichengfa" target="_blank">继承法</a></li>
+					<li><a href="http://www.lihun66.com/jclaw/jcq" target="_blank">继承权</a></li>
+					<li><a href="http://www.lihun66.com/jclaw/ycjc" target="_blank">遗产继承</a></li>
+                    <li><a href="http://www.lihun66.com/jclaw/ccjc" target="_blank">财产继承</a></li>
+                </ul>
+            </span>
+            <span class="big" style="margin:0 3px;">
+              <div class="large"><a href="http://www.lihun66.com/znfylaw/" target="_blank">子女抚养</a></div>
+              <div class="popup_d link_all disnone" style="width:102px;"><a href="http://www.lihun66.com/znfylaw/fuyangfa/" target="_blank">抚养法</a><a href="http://www.lihun66.com/znfylaw/fuyangfei/" target="_blank">抚养费</a><a href="http://www.lihun66.com/znfylaw/fuyangq/" target="_blank">抚养权</a><a href="http://www.lihun66.com/znfylaw/gdfuyang/" target="_blank">隔代抚养</a><a href="http://www.lihun66.com/znfylaw/bfuyangq/" target="_blank">变更抚养权</a><a href="http://www.lihun66.com/znfylaw/fuyangzx/" target="_blank">抚养咨询问答</a>
+</div>
+            </span>            
+            <span class="small" style="width:102px;">
+            	<ul>
+					<li><a href="http://www.lihun66.com/znfylaw/fuyangfa/" target="_blank">抚养法</a></li>
+                	<li><a href="http://www.lihun66.com/znfylaw/fuyangfei/" target="_blank">抚养费</a></li>
+                    <li><a href="http://www.lihun66.com/znfylaw/fuyangq/" target="_blank">抚养权</a></li>
+                    <li><a href="http://www.lihun66.com/znfylaw/gdfuyang/" target="_blank">隔代抚养</a></li>
+                </ul>
+            </span>
+            <span class="big" style="margin:0 3px;">
+            	<div class="large"><a href="http://www.lihun66.com/fagui/" target="_blank" >婚姻法规</a></div>
+            	<div class="popup_e link_all disnone">            
+            <a href="http://www.lihun66.com/fagui/jiehunfagui/" target="_blank">结婚法规</a><a href="http://www.lihun66.com/fagui/lihunfagui/" target="_blank">离婚法规</a><a href="http://www.lihun66.com/fagui/jichengfagui" target="_blank">继承法规</a><a href="http://www.lihun66.com/fagui/shouyangfagui/" target="_blank">收养法规</a><a href="http://www.lihun66.com/fagui/shanyangyuyang/" target="_blank">赡养抚养法规</a><a href="http://www.lihun66.com/fagui/shewaihunyin/" target="_blank">涉外婚姻法规</a><a href="http://www.lihun66.com/fagui/junrenhunyin/" target="_blank">军人婚姻法规</a><a href="http://www.lihun66.com/fagui/jiatingguanxifagui/" target="_blank">家庭关系法规</a><a href="http://www.lihun66.com/fagui/hunyindengjifagui/" target="_blank">婚姻登记法规</a><a href="http://www.lihun66.com/fagui/hunyinfagui/" target="_blank">婚姻法规</a><a href="http://www.lihun66.com/fagui/yizufagui/" target="_blank">遗嘱法规</a>
+				</div>   
+                
+            </span>                       
+            <span style="width:114px;">
+            	<ul>
+                	<li><a href="http://www.lihun66.com/fagui/jiehunfagui/" target="_blank">结婚法规</a></li>
+                    <li><a href="http://www.lihun66.com/fagui/lihunfagui/" target="_blank">离婚法规</a></li>
+                    <li><a href="http://www.lihun66.com/fagui/jichengfagui/" target="_blank">继承法规</a></li>
+					<li><a href="http://www.lihun66.com/fagui/shouyangfagui/" target="_blank">收养法规</a></li>
+                </ul>
+            </span>             
+          </div>
+          <div class="nav_m_r">
+          	<h1 style="font-weight:bold;"><a href="http://www.lihun66.com/ask/">婚姻咨询</a></h1><h1 style="font-weight:bold;"><a href="http://www.lihun66.com/hylaw/">婚姻法律</a></h1>
+          </div>          
+        </div>
+        <div class="nav_r"></div>
+    </div>
+	<div class="location ask_main_location">
+    	<span class="fl">我的位置：<a href="http://www.lihun66.com/">离婚法律网</a> >  <a href="index.php">离婚法律咨询</a> > <a href="browser.php?tid=1">离婚综合咨询</a> > <a href="browser.php?tid2=2">离婚咨询</a></span>
+    </div>
+    <div class="clr"></div>
+    <div class="ask_main ask_list">
+		<div class="ask_main_l">
+        	<div class="list_l_t ask_main_l_t">
+            	<h1>离婚综合咨询导航栏</h1>
+                <div class="content">
+                	<ul>
+
+                     <li>&diams;[离婚咨询]</a></li><li>&diams;<a href="browser.php?tid2=3">[子女抚养]</a></li><li>&diams;<a href="browser.php?tid2=4">[财产分割]</a></li><li>&diams;<a href="browser.php?tid2=5">[财产继承]</a></li><li>&diams;<a href="browser.php?tid2=6">[涉外婚姻]</a></li><li>&diams;<a href="browser.php?tid2=7">[其它咨询]</a></li>                       
+                    </ul>               
+                </div>
+            </div>        
+            <div class="ask_main_l_m">
+                <div class="title">
+                    <ul>
+						<li><a class="on" href="browser.php?tid2=2">全部问题</a></li>
+					  <li><a  href="browser.php?tid2=2&amp;lm=3">已解决问题</a></li>
+					  <li><a  href="browser.php?tid2=2&amp;lm=2">未解决问题</a></li>
+					  <li class="last"><a   href="browser.php?tid2=2&amp;lm=4" >高分悬赏问题</a></li>
+                    </ul>
+                </div> 
+                <div class="content">
+                	<div class="" id="con1">
+	                  <div  class="content_c">
+	                  	<ul>
+
+												<li><span class="fl"><strong>[<a href="browser.php?tid2=2">离婚咨询</a>]</strong></a><a href="/ask/q/q52701.htm">关于离婚</a></span><span class="fr"><em>02-02</em></span></li>
+					   						<li><span class="fl"><strong>[<a href="browser.php?tid2=2">离婚咨询</a>]</strong></a><a href="/ask/q/q52690.htm">老公要跟我离婚，没有孩子，在结婚期间他买</a></span><span class="fr"><em>08-03</em></span></li>
+					   						<li><span class="fl"><strong>[<a href="browser.php?tid2=2">离婚咨询</a>]</strong></a><a href="/ask/q/q52679.htm">离婚</a></span><span class="fr"><em>06-01</em></span></li>
+					   						<li><span class="fl"><strong>[<a href="browser.php?tid2=2">离婚咨询</a>]</strong></a><a href="/ask/q/q52673.htm">离婚</a></span><span class="fr"><em>05-12</em></span></li>
+					   	                    	
+	                      
+	                    </ul>                  
+	                  </div>
+	                  <div class="clr"></div>
+	                  <div class="line"></div>
+	                  <div  class="content_d">
+	                  	<ul>
+	                    							<li><span class="fl"><strong>[<a href="browser.php?tid2=2">离婚咨询</a>]</strong></a><a href="/ask/q/q52658.htm">法院判决，孩子抚养权归谁</a></span><span class="fr"><em>02-20</em></span></li>
+					   						<li><span class="fl"><strong>[<a href="browser.php?tid2=2">离婚咨询</a>]</strong></a><a href="/ask/q/q52643.htm">有离婚协议书，是否单方可以办理离婚手续</a></span><span class="fr"><em>12-08</em></span></li>
+					   						<li><span class="fl"><strong>[<a href="browser.php?tid2=2">离婚咨询</a>]</strong></a><a href="/ask/q/q52637.htm">离婚问题咨询</a></span><span class="fr"><em>10-28</em></span></li>
+					   						<li><span class="fl"><strong>[<a href="browser.php?tid2=2">离婚咨询</a>]</strong></a><a href="/ask/q/q52633.htm">男方不給家用，而且提出離婚，女方該怎麼維</a></span><span class="fr"><em>10-25</em></span></li>
+					   	                    </ul>                  
+	                  </div>
+	                  <div class="clr"></div>
+	                  <div class="line"></div>
+	                  <div  class="content_e">
+	                  	<ul>
+	                    							<li><span class="fl"><strong>[<a href="browser.php?tid2=2">离婚咨询</a>]</strong></a><a href="/ask/q/q52613.htm">儿子未满周岁男方能不能提出离婚？</a></span><span class="fr"><em>08-15</em></span></li>
+					   						<li><span class="fl"><strong>[<a href="browser.php?tid2=2">离婚咨询</a>]</strong></a><a href="/ask/q/q52608.htm">感情破裂，无法挽回，想离婚，但男方拒绝，</a></span><span class="fr"><em>08-10</em></span></li>
+					   						<li><span class="fl"><strong>[<a href="browser.php?tid2=2">离婚咨询</a>]</strong></a><a href="/ask/q/q52605.htm">离婚咨询</a></span><span class="fr"><em>07-25</em></span></li>
+					   						<li><span class="fl"><strong>[<a href="browser.php?tid2=2">离婚咨询</a>]</strong></a><a href="/ask/q/q52599.htm">两人二婚，女方有一女，再离婚后怎样协议</a></span><span class="fr"><em>07-09</em></span></li>
+					   	                    </ul>                  
+	                  </div>
+	                  <div class="clr"></div>
+	                  <div  class="content_f">
+					  <ul>
+					  <li><a href="#" class="on">1</a><li><li><a href="browser.php?tid2=2&amp;page=2">2</a></li><li><a href="browser.php?tid2=2&amp;page=3">3</a></li><li><a href="browser.php?tid2=2&amp;page=4">4</a></li><li><a href="browser.php?tid2=2&amp;page=5">5</a></li><li><a href="browser.php?tid2=2&amp;page=6">6</a></li><li><a href="browser.php?tid2=2&amp;page=7">7</a></li><li><a href="browser.php?tid2=2&amp;page=8">8</a></li><li><a href="browser.php?tid2=2&amp;page=9">9</a></li><li><a href="browser.php?tid2=2&amp;page=10">10</a></li><li><a href="browser.php?tid2=2&amp;page=2" class="next">&rsaquo;&rsaquo;</a></li>					  </ul>
+	                  </div>                
+                    </div>
+                	
+                </div>           
+            </div>
+            <div class="ask_main_l_b">
+            	<h1>在线咨询</h1>
+                <div class="content">
+				<form action="http://www.lihun66.com/ask/post.php?action=ask" method="post">
+					<input type="hidden" value="100" name="scores">
+					<input type="hidden" value="1" name="ClassLevel1">
+                	<div class="title"><label>标题：</label><input type="text" name="title" /></div>
+                    <div class="main"><label>内容：</label><textarea name-"content"></textarea></div>
+                    <div class="phone"><label>电话：</label><input type="text" name="tal" /><span>注：请填写真实联系电话，确保律师能真正解决您的疑问。</span></div>
+                    <div class="btn"><input type="submit"  class="submit" value="提交问题" /></div>
+				</form>
+                </div>
+            </div>
+        </div>
+        <div class="ask_main_r">
+        	<div class="t">
+            	<label class="mb5">36579</label>
+                <label class="mb5">38139 </label>
+                <label class="mb5">36579</label>
+                <label>0</label>
+            </div>
+            <iframe style="margin-bottom:10px;" frameborder="0" name="iFrame1" width="261" height="381" marginheight="0" marginwidth="0" scrolling="no" src="http://open.lawtime.cn/index.php?m=lihunProfAds&a=index_rightproduct"></iframe>
+            <div class="center_t_r_b main_4">
+                <div class="bg">
+                    <h1><span class="icon"></span><span class="fl">最新排行</span></h1>
+                </div>
+                <div class="shadow"></div>
+                <div class="main">   
+                  <span class="l">排名</span>
+                  <span class="c">注册名</span>
+                  <span class="r">回复量</span> 
+                  <div class="clr"></div>
+                  <ul>
+                                  	<li class='top' ><span class="fl">1</span><a href="../member/index.php?uid=罗卫清律师">罗卫清律师</a><span class="fr"><strong>699</strong></span></li>
+					                    	<li class='top' ><span class="fl">2</span><a href="../member/index.php?uid=庞娟律师">庞娟律师</a><span class="fr"><strong>435</strong></span></li>
+					                    	<li class='top' ><span class="fl">3</span><a href="../member/index.php?uid=杨建军律师">杨建军律师</a><span class="fr"><strong>273</strong></span></li>
+					                    	<li  ><span class="fl">4</span><a href="../member/index.php?uid=kenryt">kenryt</a><span class="fr"><strong>130</strong></span></li>
+					                    	<li  ><span class="fl">5</span><a href="../member/index.php?uid=lucylin68">lucylin68</a><span class="fr"><strong>109</strong></span></li>
+					                    	<li  ><span class="fl">6</span><a href="../member/index.php?uid=sochen">sochen</a><span class="fr"><strong>80</strong></span></li>
+					                    	<li  ><span class="fl">7</span><a href="../member/index.php?uid=law菜鸟">law菜鸟</a><span class="fr"><strong>44</strong></span></li>
+					                    	<li  ><span class="fl">8</span><a href="../member/index.php?uid=张慧进律师">张慧进律师</a><span class="fr"><strong>16</strong></span></li>
+					                    	<li  ><span class="fl">9</span><a href="../member/index.php?uid=阮芳成律师">阮芳成律师</a><span class="fr"><strong>16</strong></span></li>
+					                    	<li  ><span class="fl">10</span><a href="../member/index.php?uid=思季木容">思季木容</a><span class="fr"><strong>16</strong></span></li>
+					               
+                  </ul>                                 
+                </div> 
+             </div>                            
+        </div>
+    </div>
+    <div class="clr"></div>
+  	<div class="foot">
+	<div class="top"><a href="http://www.lihun66.com/lawyer/">离婚律师</a> | <a href="http://www.lihun66.com/lhlaw/lihunxy/">离婚协议书</a> | <a href="http://www.lihun66.com/lhlaw/lihunss/">离婚诉讼</a> | <a href="http://www.lihun66.com/hyanli/planli/">离婚案例</a> | <a href="http://www.lihun66.com/fagui/">婚姻法规</a> | <a href="http://www.lihun66.com/ask/">离婚法律咨询</a></div>
+	<p><script src="http://www.lawtime.cn/lawyer/iframe/lihun66_foot.php" type="text/javascript"></script><!--广州总站<b>张慧进律师</b>手机：13826105460 地址：广州市越秀区东风中路268号广州交易广场13层(地铁纪念堂站D1出口)--> </p>
+	<p>@<b>离婚法律网</b>2003 - 2010 京公网安备 1101054351 <em>备案编号：4401060101043</em>
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F68f4eb3e6533bb5ffef16a7709e2f886' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script language="javascript" src="http://count20.51yes.com/click.aspx?id=204184073&logo=1" charset="gb2312"></script></p>
+</div></div>    
+</body>
+</html>
